@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html>
-  <head><link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
-    <meta charset="utf-8">
-    <title>My test page</title>
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
-    <script src="script.js"></script>
-  </head>
-  <body>
-  <center><img src="images/1.png" alt="My test image">
-  <center><h1>(1).1+1=？</h1>
-    <button onclick="question1WrongAnswer()">（A）√1</button>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>My test page</title>
+  <link href="styles/style.css" rel="stylesheet" type="text/css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <img src="images/1.png" alt="My test image">
+
+
+  <div style="display: flex; flex-direction: column ; ">
+    <h1 style="align-self: center;">(1).1+1=？</h1>
+    <button style="align-self: center;" onclick="question1WrongAnswer()">（A）√1</button>
     <button onclick="question1WrongAnswer()">（B）√2</button>
     <button onclick="question1WrongAnswer()">（C）11</button>
     <button onclick="question1RightAnswer()">（D）2</button>
-  
-    
-  </body>
-</html> 
+  </div>
 
+</body>
+
+</html>
