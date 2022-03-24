@@ -7,7 +7,7 @@ function question1RightAnswer() {
   console.log("you are rightt!!!!!!");
   let hint = "提示：F";
   alert(hint);
-  window.location.replace("./finish.html");
+  window.location.replace("./question2.html");
 }
 function question1WrongAnswer() {
   console.log("you are wrong!!!!!");
@@ -19,7 +19,7 @@ function question2RightAnswer() {
   console.log("you are rightt!!!!!!");
   let hint = "提示：a";
   alert(hint);
-  window.location.replace("./finish.html");
+  window.location.replace("./question3.html");
 }
 function question2WrongAnswer() {
   console.log("you are wrong!!!!!");
@@ -31,7 +31,7 @@ function question3RightAnswer() {
   console.log("you are rightt!!!!!!");
   let hint = "提示：m";
   alert(hint);
-  window.location.replace("./finish.html");
+  window.location.replace("./question4.html");
 }
 function question3WrongAnswer() {
   console.log("you are wrong!!!!!");
@@ -43,7 +43,7 @@ function question4RightAnswer() {
   console.log("you are rightt!!!!!!");
   let hint = "提示：i";
   alert(hint);
-  window.location.replace("./finish.html");
+  window.location.replace("./question5.html");
 }
 function question4WrongAnswer() {
   console.log("you are wrong!!!!!");
@@ -55,7 +55,7 @@ function question5RightAnswer() {
   console.log("you are rightt!!!!!!");
   let hint = "提示：l";
   alert(hint);
-  window.location.replace("./finish.html");
+  window.location.replace("./question6.html");
 }
 function question5WrongAnswer() {
   console.log("you are wrong!!!!!");
